@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en">
+{% include 'components/_seo.html' %}
+  <body>
+    <header role="banner"> 
+      {% include 'components/_nav.html' %}
+    </header>
+    {% block content %}{% endblock %}
+    {% include 'components/_footer.html' %}
+  </body>
+</html>
