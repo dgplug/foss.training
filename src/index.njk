@@ -1,0 +1,55 @@
+---
+layout: base.njk
+---
+<div class="hero-section" id="hero">
+  <h1 class="site-title">DGPLUG Summer Training 2022</h1>
+  <p class="site-date">
+    <time>25th July, 2022</time>
+  </p>
+  <a href="#get-started" class="btn btn-primary">Get Started</a>
+</div>
+
+<!-- Objectives section -->
+<section class="site-section" id="objectives">
+  <h2 class="section-title">Objectives</h2>
+  <p class="section-summary">Get started on the path to becoming an upstream open source contributor.</p>
+  <hr class="section-heading-underline" />
+  <ul class="objective-items">
+    {% for item in objectives %}
+    <li class="objective-item">
+      <h3 class="item-title">{{ item.heading }}</h3>
+      <p class="item-paragraph">{{ item.paragraph | safe }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+  <p class="text-center">Want to know more details? Check our <a href="">announcement page</a></p>
+</section>
+
+<!-- What you get -->
+<section class="site-section" id="scope">
+  <h2 class="section-title">What you get?</h2>
+  <hr class="section-heading-underline" />
+  <ul class="topic-items">
+    {% for item in topics %}
+    <li class="topic-item">
+      <h3 class="item-title">{{ item.heading }}</h3>
+      <p class="item-paragraph">{{ item.paragraph | safe }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+  <p class="text-center">Still have questions? Check our <a href="">FAQ page</a></p>
+</section>
+
+<!-- Get Started -->
+<section class="site-section" id="get-started">
+  <h2 class="section-title">Get Started</h2>
+  <hr class="section-heading-underline" />
+  <ol class="steps">
+    {% for item in steps %}
+    <li class="step">
+      <h3 class="item-title">{{ item.heading }}</h3>
+      <p class="item.paragraph">{{ item.paragraph | safe }}</p>
+    </li>
+    {% endfor %}
+  </ol>
+</section>

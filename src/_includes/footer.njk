@@ -1,0 +1,21 @@
+<footer class="site-footer">
+  <div>
+    <p>
+      This is our 14th year. Through this training, we show the path
+      of becoming an upstream contributor. The training lasts almost
+      3 months, and the sessions are generally at 19:00 IST (13:00 UTC)
+      onwards.
+    </p>
+    <p>
+      Built with
+      <a href="https://www.11ty.dev/" rel="noopener">eleventy</a>
+    </p>
+  </div>
+  <nav aria-label="Footer">
+    <ul class="nav-footer">
+      {% for item in footernav %}
+        <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</footer>

@@ -1,0 +1,13 @@
+{
+  "name": "foss.training",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "start": "ELEVENTY_ENV=development npx @11ty/eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}

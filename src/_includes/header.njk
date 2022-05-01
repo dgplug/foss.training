@@ -1,0 +1,17 @@
+<header>
+  <a href="#content" class="skip-link">Skip to content</a>
+  <div class="header">
+    <a class="logo" href="/">
+      <img src="/assets/img/dgplug.png" alt="Homepage" />
+    </a>
+    <nav class="nav" aria-label="Main">
+      <ul class="nav-items">
+        {% for item in mainnav %}
+        <li class="nav-item">
+          <a href="{{ item.url }}" class="nav-link" {% if item.url === page.url or (item.url !== '/' and item.url in page.url)  %}aria-current="page"{% endif %}>{{ item.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
