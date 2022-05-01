@@ -9,6 +9,8 @@ The landing page for dgplug summer training
 - Open `http://localhost:8080` in your browser
 
 To make any changes, make changes only in the `src` directory
+Always run `npm run build` before committing and pushing code
+so that `_site` is updated.
 
 ## Production Deploy
 Just deploy the contents of `_site` folder. The `_site` folder
