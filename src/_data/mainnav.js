@@ -10,9 +10,5 @@ module.exports = [
     {
         "name": "Contact",
         "url": "/contact/"
-    },
-    {
-        "name": "CoC",
-        "url": "/coc/"
     }
 ];
