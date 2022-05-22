@@ -106,6 +106,14 @@ p.text-center {
     padding: 1rem 1.5rem;
 }
 
+header.header-dark {
+    background-color: #1d1649;
+}
+
+header.header-dark .header {
+    position: relative;
+}
+
 .nav .nav-items {
     display: flex;
     flex-wrap: wrap;
@@ -151,8 +159,7 @@ p.text-center {
     background: #0a052d;
     background-size: cover;
     padding: 10rem calc((100vw - 1312px)/2) 5rem;
-    height: calc(100vh - 12rem);
-    max-height: 700px
+    height: clamp(475px, calc(100vh - 12rem), 700px);
 }
 
 .site-title {
