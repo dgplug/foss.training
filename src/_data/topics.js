@@ -12,12 +12,12 @@ module.exports = [
         "paragraph": "Meet and learn from folks who have walked the path before. Alumni who used the Summer Training to vault themselves into being valued members of the open source community."
     },
     {
-        "heading": "Soft skill training",
+        "heading": "Soft skills training",
         "paragraph": "Ask better questions.<br/>Learn to blog.<br/>Communicate effectively."
     },
     {
         "heading": "Revisiting programming fundamentals",
-        "paragraph": "Don’t let your computer limit what you can do. Learn how to use them to get things done instead of doing them manually and do even more! We speak Python for the same. "
+        "paragraph": "Don’t let your computer limit what you can do.<br/>Learn how to use and control them to do more, instead of boring manual drudgery!<br/>We’ll use Python to do all this!"
     },
     {
         "heading": "Communication skills",
@@ -25,10 +25,10 @@ module.exports = [
     },
     {
         "heading": "Free Software project guidelines",
-        "paragraph": "How do you commit code to a project?How do you work with the people you collaborate with?What are the whys and hows?Learn all about it here."
+        "paragraph": "How do you commit code to a project?<br/>How do you work with the people you collaborate with?<br/>What are the whys and hows?<br/>Learn all about it here."
     },
     {
         "heading": "Free Software Licenses",
-        "paragraph": "How do you protect your work?How do you give it away?How do you make sure you get credit for your work?Why is licensing important?"
+        "paragraph": "How do you protect your work?<br/>How do you give it away?<br/>How do you make sure you get credit for your work?<br/>Why is licensing important?"
     },
 ];
