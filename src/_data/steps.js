@@ -9,7 +9,7 @@ module.exports = [
     },
     {
         "heading": "Get a Linux computer and Internet",
-        "paragraph": "To get the most out of this training, it's good to have GNU/Linux OS in your computer."
+        "paragraph": "To get the most out of this training, we recommend you have GNU/Linux OS installed on your computer."
     },
     {
         "heading": "Have an attitude to learn",
@@ -17,6 +17,6 @@ module.exports = [
     },
     {
         "heading": "Some before-you-start things",
-        "paragraph": "We would highly encourage you to go through this <a href='https://summertraining.readthedocs.io/en/latest/beforestart.html'>before-you-start guide</a> to get in the right mindset"
+        "paragraph": "We highly encourage you to go through this <a href='https://summertraining.readthedocs.io/en/latest/beforestart.html'>before-you-start guide</a> to get into the right mindset"
     },
 ];
