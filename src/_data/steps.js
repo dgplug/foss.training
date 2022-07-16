@@ -1,7 +1,7 @@
 module.exports = [
     {
         "heading": "Join the mailing list",
-        "paragraph": "You can join the dgplug mailing list <a href='http://lists.dgplug.org/listinfo.cgi/users-dgplug.org' aria-label='DGPLUG mailing list'>here</a> to ask any doubts."
+        "paragraph": "You can join the dgplug mailing list <a href='https://mail.python.org/mailman3/lists/dgplug.python.org/' aria-label='DGPLUG mailing list'>here</a> to ask any doubts."
     },
     {
         "heading": "Join our IRC channel",
