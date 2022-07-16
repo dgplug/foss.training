@@ -9,7 +9,7 @@ module.exports = [
     },
     {
         "name": "Mailing List",
-        "url": "http://lists.dgplug.org/listinfo.cgi/users-dgplug.org"
+        "url": "https://mail.python.org/mailman3/lists/dgplug.python.org/"
     },
     {
         "name": "Announcement",
